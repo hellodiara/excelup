@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import type { User } from './types';
+import Profile from './components/Profile';
+import DATA from './data';
 
 import {
     Button,
@@ -30,8 +33,9 @@ import {
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+import {faFacebook} from '@fortawesome/free-brands-svg-icons'
 
-library.add(faStroopwafel)
+library.add(faStroopwafel, faFacebook)
 
 class App extends Component {
   render() {
@@ -44,6 +48,13 @@ class App extends Component {
           <CardSubtitle className="text-muted">Company</CardSubtitle>
           <Badge color="secondary">Title</Badge>
           <CardText>test</CardText>
+          <p className="social-icons">
+            <a href="/"><FontAwesomeIcon className="font-awesome" icon="stroopwafel"/></a>
+            <a href="/"><FontAwesomeIcon className="font-awesome" icon="stroopwafel"/></a>
+            <a href="/"><FontAwesomeIcon className="font-awesome" icon="stroopwafel"/></a>
+            <a href="/"><FontAwesomeIcon className="font-awesome" icon="facebook"/></a>
+
+          </p>
           <Button>More</Button>
         </CardBody>
         <CardFooter>

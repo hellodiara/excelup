@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+/*--Social Media Profile Icons--*/
+.font-awesome {
+  color: #212733;
+  text-decoration: none;
+}
+.font-awesome:hover {
+  color: #ff3145;
+}
