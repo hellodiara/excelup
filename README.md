@@ -4,7 +4,14 @@ You can find the most recent version of their guide [here](https://github.com/fa
 
 ## Table of Contents
 
-- [Project-Information](#project-information)
+- [Project Information](#project-information)
+- [Projec Setup](#project-setup)
 
 ### Project Information
 Coming Soon
+
+### Project Setup
+Clone the Project - git clone https://github.com/hellodiara/excelup.git
+Go into the directory where the project now lives - cd excelup
+Install the dependencies - npm install
+Start the app - npm start
